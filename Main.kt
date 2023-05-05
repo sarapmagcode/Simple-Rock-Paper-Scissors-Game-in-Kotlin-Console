@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
         val choices = arrayOf("rock", "paper", "scissors")
         println("Choices:")
         for (i in choices.indices) {
-            println("(${i + 1}) ${choices[i]}")
+            println("(${i+1}) ${choices[i]}")
         }
 
         // Player (you)
